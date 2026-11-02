@@ -1,0 +1,101 @@
+{
+  "format": "meva-verified-list",
+  "formatVersion": 1,
+  "sequence": 1,
+  "issuedAt": "2026-11-02T10:12:00Z",
+  "expiresAt": "2027-01-31T10:12:00Z",
+  "plugins": [
+    {
+      "id": "github.com/rimedot/cat-printer",
+      "version": "0.1.1",
+      "kind": "ui",
+      "source": "https://github.com/rimedot/cat-printer",
+      "files": [
+        {
+          "name": "cat-printer.mevax",
+          "sha256": "f5a396585536b4b787dfde0938417769b54a58ea9efb9eb5de279e4c88a63f02"
+        }
+      ],
+      "audit": {
+        "url": "https://github.com/rimedot/verified/blob/main/audits/cat-printer-0.1.1.md",
+        "sha256": "239a53cf4bc669545d61137444ace18839f5c5723fa5912da53a83dc8c1fb38e"
+      },
+      "verifiedAt": "2026-11-02"
+    },
+    {
+      "id": "github.com/rimedot/joycaption",
+      "version": "0.3.0",
+      "kind": "processor",
+      "source": "https://github.com/rimedot/joycaption",
+      "files": [
+        {
+          "name": "joycaption.mevax",
+          "sha256": "3ea5b7522a3b17d1e59b09932aaef895b40fba7882d25b36fbea96581bcc8e56"
+        }
+      ],
+      "audit": {
+        "url": "https://github.com/rimedot/verified/blob/main/audits/joycaption-0.3.0.md",
+        "sha256": "f7f0330fc82702deb66a51ff88bad58a32f038d8c43d820f22f52f8a5b9e440c"
+      },
+      "verifiedAt": "2026-11-02"
+    },
+    {
+      "id": "github.com/rimedot/joytag",
+      "version": "0.3.0",
+      "kind": "processor",
+      "source": "https://github.com/rimedot/joytag",
+      "files": [
+        {
+          "name": "joytag.mevax",
+          "sha256": "7f5fce0a4bd130c6b57041460e6fc0d2305a3cbcbd997bfc6d1de125023c0160"
+        }
+      ],
+      "audit": {
+        "url": "https://github.com/rimedot/verified/blob/main/audits/joytag-0.3.0.md",
+        "sha256": "07e010c89f798b18671c3f410017c379d27102e08987fe99dedbf4522f3bd703"
+      },
+      "verifiedAt": "2026-11-02"
+    },
+    {
+      "id": "github.com/rimedot/runner",
+      "version": "0.6.0",
+      "kind": "runner",
+      "source": "https://github.com/rimedot/runner",
+      "files": [
+        {
+          "name": "runner.mevax",
+          "sha256": "f05d8d11ed56e43752abd7b9dcaca94bc3bf9d0222891fc2d30f6c75d6e7aacb"
+        },
+        {
+          "name": "runner-linux-x86_64.tar.gz",
+          "sha256": "8bbbb2944d009caed2d65bef5bd1e303af4cff4df01c72372a29496a13807ed9",
+          "os": "linux",
+          "arch": "x86_64"
+        }
+      ],
+      "audit": {
+        "url": "https://github.com/rimedot/verified/blob/main/audits/runner-0.6.0.md",
+        "sha256": "d020334dc9c1a4afb4814fb3bf7ff25f2f0a680376be89c47406163d006c40dd"
+      },
+      "verifiedAt": "2026-11-02"
+    },
+    {
+      "id": "github.com/rimedot/wd-tagger",
+      "version": "0.3.0",
+      "kind": "processor",
+      "source": "https://github.com/rimedot/wd-tagger",
+      "files": [
+        {
+          "name": "wd-tagger.mevax",
+          "sha256": "54a4a36fe49e5085556686c9ab3a8405aac36d4760c40071481a3f3e15ff3315"
+        }
+      ],
+      "audit": {
+        "url": "https://github.com/rimedot/verified/blob/main/audits/wd-tagger-0.3.0.md",
+        "sha256": "3b17c39e7f08c03ec28498635fc448f4e2a37de44802ba13a1f0a2eb56a6c06b"
+      },
+      "verifiedAt": "2026-11-02"
+    }
+  ],
+  "revoked": []
+}
